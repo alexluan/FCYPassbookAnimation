@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CDF16171BCB822000BE88F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDF16161BCB822000BE88F1 /* main.m */; };
+		4CDF161A1BCB822000BE88F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDF16191BCB822000BE88F1 /* AppDelegate.m */; };
+		4CDF161D1BCB822000BE88F1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDF161C1BCB822000BE88F1 /* ViewController.m */; };
+		4CDF16201BCB822000BE88F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CDF161E1BCB822000BE88F1 /* Main.storyboard */; };
+		4CDF16221BCB822000BE88F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CDF16211BCB822000BE88F1 /* Assets.xcassets */; };
+		4CDF16251BCB822000BE88F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CDF16231BCB822000BE88F1 /* LaunchScreen.storyboard */; };
+		4CDF16301BCB822000BE88F1 /* FCYPassbookAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDF162F1BCB822000BE88F1 /* FCYPassbookAnimationTests.m */; };
+		4CDF163B1BCB822000BE88F1 /* FCYPassbookAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDF163A1BCB822000BE88F1 /* FCYPassbookAnimationUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CDF162C1BCB822000BE88F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CDF160A1BCB822000BE88F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CDF16111BCB822000BE88F1;
+			remoteInfo = FCYPassbookAnimation;
+		};
+		4CDF16371BCB822000BE88F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CDF160A1BCB822000BE88F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CDF16111BCB822000BE88F1;
+			remoteInfo = FCYPassbookAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4CDF16121BCB822000BE88F1 /* FCYPassbookAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FCYPassbookAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CDF16161BCB822000BE88F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4CDF16181BCB822000BE88F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4CDF16191BCB822000BE88F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4CDF161B1BCB822000BE88F1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4CDF161C1BCB822000BE88F1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4CDF161F1BCB822000BE88F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4CDF16211BCB822000BE88F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CDF16241BCB822000BE88F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4CDF16261BCB822000BE88F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CDF162B1BCB822000BE88F1 /* FCYPassbookAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FCYPassbookAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CDF162F1BCB822000BE88F1 /* FCYPassbookAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCYPassbookAnimationTests.m; sourceTree = "<group>"; };
+		4CDF16311BCB822000BE88F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CDF16361BCB822000BE88F1 /* FCYPassbookAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FCYPassbookAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CDF163A1BCB822000BE88F1 /* FCYPassbookAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCYPassbookAnimationUITests.m; sourceTree = "<group>"; };
+		4CDF163C1BCB822000BE88F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CDF160F1BCB822000BE88F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CDF16281BCB822000BE88F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CDF16331BCB822000BE88F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CDF16091BCB822000BE88F1 = {
+			isa = PBXGroup;
+			children = (
+				4CDF16141BCB822000BE88F1 /* FCYPassbookAnimation */,
+				4CDF162E1BCB822000BE88F1 /* FCYPassbookAnimationTests */,
+				4CDF16391BCB822000BE88F1 /* FCYPassbookAnimationUITests */,
+				4CDF16131BCB822000BE88F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CDF16131BCB822000BE88F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CDF16121BCB822000BE88F1 /* FCYPassbookAnimation.app */,
+				4CDF162B1BCB822000BE88F1 /* FCYPassbookAnimationTests.xctest */,
+				4CDF16361BCB822000BE88F1 /* FCYPassbookAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CDF16141BCB822000BE88F1 /* FCYPassbookAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				4CDF16181BCB822000BE88F1 /* AppDelegate.h */,
+				4CDF16191BCB822000BE88F1 /* AppDelegate.m */,
+				4CDF161B1BCB822000BE88F1 /* ViewController.h */,
+				4CDF161C1BCB822000BE88F1 /* ViewController.m */,
+				4CDF161E1BCB822000BE88F1 /* Main.storyboard */,
+				4CDF16211BCB822000BE88F1 /* Assets.xcassets */,
+				4CDF16231BCB822000BE88F1 /* LaunchScreen.storyboard */,
+				4CDF16261BCB822000BE88F1 /* Info.plist */,
+				4CDF16151BCB822000BE88F1 /* Supporting Files */,
+			);
+			path = FCYPassbookAnimation;
+			sourceTree = "<group>";
+		};
+		4CDF16151BCB822000BE88F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CDF16161BCB822000BE88F1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4CDF162E1BCB822000BE88F1 /* FCYPassbookAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				4CDF162F1BCB822000BE88F1 /* FCYPassbookAnimationTests.m */,
+				4CDF16311BCB822000BE88F1 /* Info.plist */,
+			);
+			path = FCYPassbookAnimationTests;
+			sourceTree = "<group>";
+		};
+		4CDF16391BCB822000BE88F1 /* FCYPassbookAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4CDF163A1BCB822000BE88F1 /* FCYPassbookAnimationUITests.m */,
+				4CDF163C1BCB822000BE88F1 /* Info.plist */,
+			);
+			path = FCYPassbookAnimationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CDF16111BCB822000BE88F1 /* FCYPassbookAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CDF163F1BCB822000BE88F1 /* Build configuration list for PBXNativeTarget "FCYPassbookAnimation" */;
+			buildPhases = (
+				4CDF160E1BCB822000BE88F1 /* Sources */,
+				4CDF160F1BCB822000BE88F1 /* Frameworks */,
+				4CDF16101BCB822000BE88F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FCYPassbookAnimation;
+			productName = FCYPassbookAnimation;
+			productReference = 4CDF16121BCB822000BE88F1 /* FCYPassbookAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CDF162A1BCB822000BE88F1 /* FCYPassbookAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CDF16421BCB822000BE88F1 /* Build configuration list for PBXNativeTarget "FCYPassbookAnimationTests" */;
+			buildPhases = (
+				4CDF16271BCB822000BE88F1 /* Sources */,
+				4CDF16281BCB822000BE88F1 /* Frameworks */,
+				4CDF16291BCB822000BE88F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CDF162D1BCB822000BE88F1 /* PBXTargetDependency */,
+			);
+			name = FCYPassbookAnimationTests;
+			productName = FCYPassbookAnimationTests;
+			productReference = 4CDF162B1BCB822000BE88F1 /* FCYPassbookAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4CDF16351BCB822000BE88F1 /* FCYPassbookAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CDF16451BCB822000BE88F1 /* Build configuration list for PBXNativeTarget "FCYPassbookAnimationUITests" */;
+			buildPhases = (
+				4CDF16321BCB822000BE88F1 /* Sources */,
+				4CDF16331BCB822000BE88F1 /* Frameworks */,
+				4CDF16341BCB822000BE88F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CDF16381BCB822000BE88F1 /* PBXTargetDependency */,
+			);
+			name = FCYPassbookAnimationUITests;
+			productName = FCYPassbookAnimationUITests;
+			productReference = 4CDF16361BCB822000BE88F1 /* FCYPassbookAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CDF160A1BCB822000BE88F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = iFangcy;
+				TargetAttributes = {
+					4CDF16111BCB822000BE88F1 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					4CDF162A1BCB822000BE88F1 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 4CDF16111BCB822000BE88F1;
+					};
+					4CDF16351BCB822000BE88F1 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 4CDF16111BCB822000BE88F1;
+					};
+				};
+			};
+			buildConfigurationList = 4CDF160D1BCB822000BE88F1 /* Build configuration list for PBXProject "FCYPassbookAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CDF16091BCB822000BE88F1;
+			productRefGroup = 4CDF16131BCB822000BE88F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CDF16111BCB822000BE88F1 /* FCYPassbookAnimation */,
+				4CDF162A1BCB822000BE88F1 /* FCYPassbookAnimationTests */,
+				4CDF16351BCB822000BE88F1 /* FCYPassbookAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CDF16101BCB822000BE88F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CDF16251BCB822000BE88F1 /* LaunchScreen.storyboard in Resources */,
+				4CDF16221BCB822000BE88F1 /* Assets.xcassets in Resources */,
+				4CDF16201BCB822000BE88F1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CDF16291BCB822000BE88F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CDF16341BCB822000BE88F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CDF160E1BCB822000BE88F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CDF161D1BCB822000BE88F1 /* ViewController.m in Sources */,
+				4CDF161A1BCB822000BE88F1 /* AppDelegate.m in Sources */,
+				4CDF16171BCB822000BE88F1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CDF16271BCB822000BE88F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CDF16301BCB822000BE88F1 /* FCYPassbookAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CDF16321BCB822000BE88F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CDF163B1BCB822000BE88F1 /* FCYPassbookAnimationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CDF162D1BCB822000BE88F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CDF16111BCB822000BE88F1 /* FCYPassbookAnimation */;
+			targetProxy = 4CDF162C1BCB822000BE88F1 /* PBXContainerItemProxy */;
+		};
+		4CDF16381BCB822000BE88F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CDF16111BCB822000BE88F1 /* FCYPassbookAnimation */;
+			targetProxy = 4CDF16371BCB822000BE88F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4CDF161E1BCB822000BE88F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CDF161F1BCB822000BE88F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4CDF16231BCB822000BE88F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CDF16241BCB822000BE88F1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CDF163D1BCB822000BE88F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4CDF163E1BCB822000BE88F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CDF16401BCB822000BE88F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FCYPassbookAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ifangcy.app.FCYPassbookAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4CDF16411BCB822000BE88F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FCYPassbookAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ifangcy.app.FCYPassbookAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4CDF16431BCB822000BE88F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FCYPassbookAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ifangcy.app.FCYPassbookAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FCYPassbookAnimation.app/FCYPassbookAnimation";
+			};
+			name = Debug;
+		};
+		4CDF16441BCB822000BE88F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FCYPassbookAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ifangcy.app.FCYPassbookAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FCYPassbookAnimation.app/FCYPassbookAnimation";
+			};
+			name = Release;
+		};
+		4CDF16461BCB822000BE88F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FCYPassbookAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ifangcy.app.FCYPassbookAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FCYPassbookAnimation;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4CDF16471BCB822000BE88F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FCYPassbookAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ifangcy.app.FCYPassbookAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FCYPassbookAnimation;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CDF160D1BCB822000BE88F1 /* Build configuration list for PBXProject "FCYPassbookAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CDF163D1BCB822000BE88F1 /* Debug */,
+				4CDF163E1BCB822000BE88F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CDF163F1BCB822000BE88F1 /* Build configuration list for PBXNativeTarget "FCYPassbookAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CDF16401BCB822000BE88F1 /* Debug */,
+				4CDF16411BCB822000BE88F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4CDF16421BCB822000BE88F1 /* Build configuration list for PBXNativeTarget "FCYPassbookAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CDF16431BCB822000BE88F1 /* Debug */,
+				4CDF16441BCB822000BE88F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4CDF16451BCB822000BE88F1 /* Build configuration list for PBXNativeTarget "FCYPassbookAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CDF16461BCB822000BE88F1 /* Debug */,
+				4CDF16471BCB822000BE88F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CDF160A1BCB822000BE88F1 /* Project object */;
+}
